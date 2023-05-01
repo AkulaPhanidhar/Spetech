@@ -55,7 +55,8 @@ body {
     color: white;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link#active {
     color: #FF851B;
 }
 
@@ -81,7 +82,7 @@ body {
 /* Main Section Start */
 .main {
     padding: 250px 100px;
-    height: 25vh;
+    height: 26vh;
     background-image: url("Images/Planet.jpg");
     background-color: black;
     background-repeat: no-repeat;
